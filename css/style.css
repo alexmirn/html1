@@ -12,10 +12,15 @@ body {
 }
 
 .box {
-	margin: 0 auto;
+	margin: 5px auto;
 	padding-bottom: 30px;  
-	border: 1px solid #CDCDC1;
-	border-opacity:0.7; 
+	/*border: 1px solid #CDCDC1;
+	border-opacity:0.7; */
+	box-shadow:
+	-4px -4px 2px -3px #CDCDC1,
+   -4px 4px 2px -3px #CDCDC1,
+   4px -4px 2px -3px #CDCDC1,
+   4px 4px 2px -3px #CDCDC1;
 	width: 800px;
 	height: 100%;
 	background: white;
