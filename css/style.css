@@ -5,23 +5,25 @@ body {
   font-family: Arial;
 }
 
-.box {
-	margin: 5px 450px 30px 320px;
-	padding-bottom: 30px;  
-	border: 1px solid #CDCDC1;
-	border-opacity:0.7; 
-	background: white;
-}
-
 .page {
 	margin: 0px;
   padding: 0px;
 	background: #EEEEE0;
 }
 
+.box {
+	margin: 0 auto;
+	padding-bottom: 30px;  
+	border: 1px solid #CDCDC1;
+	border-opacity:0.7; 
+	width: 800px;
+  height: 100%;
+	background: white;
+}
+
 .header_text {
 	margin: 0px;
-	padding: 40px 0px 20px 0px;;
+	padding: 40px 0px 20px 0px;
 	text-align: center;
 	font-weight: bold;
 	font-size: 20px;
